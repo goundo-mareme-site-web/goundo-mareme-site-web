@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #87CEEB;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    
+}
+.main{
+    text-align: center;
+    margin-top:200px ;
+}
+.cta{
+    background: rgba(173, 216, 230, 0.596);
+    color: rgb(15, 14, 14);
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+
+footer {
+    background: #333;
+    color: rgb(116, 55, 55);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+html{
+    background-image: url(pexels-pixabay-158063.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+.exploration {
+    background-color: rgba(173, 216, 230, 0.8);
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    border-top: 2px solid #F5F5DC;
+    border-radius: 20px;
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.exploration h3 {
+    color: #333;
+    font-size: 1.5em;
+    font-family: 'Great Vibes';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.exploration p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.8;
+    font-family: 'Cinzel Decorative';
+}
+.petit{
+    background: rgba(255, 255, 255, 0,7);
+    padding: 5px 10px;
+    color:#333333ef;
+    font-size: 18;
+    border-radius:5px;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #33333300;
+    color: rgba(46, 148, 151, 0.897);
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+  
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
